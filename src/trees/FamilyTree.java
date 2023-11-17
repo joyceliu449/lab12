@@ -184,8 +184,8 @@ public class FamilyTree
 			throw new TreeException("there is no node found with name2");//??? Throw TreeException with a useful message
 		
 		// Get ancestors of node1 and node2.
-		ArrayList<TreeNode> ancestorsOf1 = collectAncestorsToList(node1);//???
-		ArrayList<TreeNode> ancestorsOf2 = collectAncestorsToList(node2);//???
+		ArrayList<TreeNode> ancestorsOf1 = collectAncestorsToList(node1);//??????
+		ArrayList<TreeNode> ancestorsOf2 = collectAncestorsToList(node2);//???????
 		
 		// Check members of ancestorsOf1 in order until you find a node that is also
 		// an ancestor of 2. 
